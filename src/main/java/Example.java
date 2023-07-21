@@ -23,6 +23,11 @@ public class Example {
         return new Date().toString();
     }
 
+    @RequestMapping("/hello-world/iasmina")
+    String iasmina() {
+        return "Java Training new feature";
+    }
+
     public static void main(String[] args) {
         SpringApplication.run(Example.class, args);
     }
