@@ -28,11 +28,17 @@ public class Example {
         return "Hola de la JT";
     }
 
+    @RequestMapping("/hello-world/daniel")
+    String daniel() {
+        return "Aloha Daniel";
+    }
+    @RequestMapping("/hello-world/radusiderias")
+    String radusiderias() {return "Salut sef"; }
+  
     @RequestMapping("/hello-world/tudor")
     String tudor() {
         return "nu Sunt Tudor Muntean";
     }
-
 
     public static void main(String[] args) {
         SpringApplication.run(Example.class, args);
