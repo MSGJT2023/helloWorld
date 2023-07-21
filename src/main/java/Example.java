@@ -18,9 +18,18 @@ public class Example {
         return new Date().toString();
     }
 
-    @RequestMapping("/hello-world/date2")
-    String date2() {
-        return new Date().toString();
+    @RequestMapping("/hello-world/denis")
+    String name() {return "Hello my name is Denis";
+    }
+
+    @RequestMapping("/hello-world/vlad")
+    String vladiordache146() {
+        return "Hello my name is Vlad";
+    }
+
+    @RequestMapping("/hello-world/serengheugabriel")
+    String serengheugabriel() {
+        return "Hola de la JT";
     }
 
     @RequestMapping("/hello-world/user")
