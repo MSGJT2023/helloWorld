@@ -28,7 +28,7 @@ public class Example {
     @RequestMapping("/hello-world/galtimea")
     String galtimea() {
         return "Hello my name is Timi";
-
+    }
 
     @RequestMapping("/hello-world/cosmin")
     String cosmin() {
@@ -66,8 +66,8 @@ public class Example {
 
     @RequestMapping("/hello-world/jakabsarolta")
     String jakabsarolta() {
-        return "Heyyy!!";
-
+                return "Heyyy!!";
+            }
       
     @RequestMapping("/hello-world/veresn")
     String veresn() {
