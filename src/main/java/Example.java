@@ -22,9 +22,9 @@ public class Example {
     String name() {return "Hello my name is Denis";
     }
 
-    @RequestMapping("/hello-world/vlad")
-    String vladiordache146() {
-        return "Hello my name is Vlad";
+    @RequestMapping("/hello-world/vladpasca")
+    String vladpasca17() {
+        return "Hello my name is Vlad Pasca";
     }
 
     @RequestMapping("/hello-world/serengheugabriel")
