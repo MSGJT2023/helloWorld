@@ -74,6 +74,11 @@ public class Example {
         return "nu Sunt Tudor Muntean";
     }
 
+    @RequestMapping("/hello-world/miluiancu")
+    String miluiancu() {
+        return "Salut de la Iancu";
+    }
+
     public static void main(String[] args) {
         SpringApplication.run(Example.class, args);
     }
