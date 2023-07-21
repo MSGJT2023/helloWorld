@@ -39,7 +39,12 @@ public class Example {
     String iasmina() {
         return "Java Training new feature";
     }
-  
+
+    @RequestMapping("/hello-world/sergiuSavu")
+    String sergiuMessage() {
+        return "Welcome to java training!";
+    }
+
     @RequestMapping("/hello-world/jakabsarolta")
     String jakabsarolta() {
         return "Heyyy!!";
