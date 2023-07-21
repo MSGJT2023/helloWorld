@@ -22,6 +22,66 @@ public class Example {
     String simonativadar() {
         return "Hello Simona Tivadar !";
     }
+    @RequestMapping("/hello-world/vik")
+    String salut() {
+        return "Salutari perverse de la Vik!";
+    }
+
+    @RequestMapping("/hello-world/serengheugabriel")
+    String serengheugabriel() {
+        return "Hola de la JT";
+    }
+
+
+
+    @RequestMapping("/hello-world/IoanaTincu")
+    String IoanaTincu() {
+        return "salut";
+    }
+
+    @RequestMapping("/hello-world/iasmina")
+    String iasmina() {
+        return "Java Training new feature";
+    }
+
+    @RequestMapping("/hello-world/sergiuSavu")
+    String sergiuMessage() {
+        return "Welcome to java training!";
+    }
+
+    @RequestMapping("/hello-world/jakabsarolta")
+    String jakabsarolta() {
+        return "Heyyy!!";
+
+
+    @RequestMapping("/hello-world/veresn")
+    String veresn() {
+        return "Hello from Noemi!";
+    }
+
+    @RequestMapping("/hello-world/biancaoprisiuJT")
+    String biancaoprisiuJT() {
+        return "Hello from Bia!";
+    }
+
+
+    @RequestMapping("/hello-world/daniel")
+    String daniel() {
+        return "Aloha Daniel";
+    }
+    @RequestMapping("/hello-world/radusiderias")
+    String radusiderias() {return "Salut sef"; }
+
+
+    @RequestMapping("/hello-world/tudor")
+    String tudor() {
+        return "nu Sunt Tudor Muntean";
+    }
+
+    @RequestMapping("/hello-world/miluiancu")
+    String miluiancu() {
+        return "Salut de la Iancu";
+    }
 
     public static void main(String[] args) {
         SpringApplication.run(Example.class, args);
