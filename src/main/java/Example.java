@@ -35,6 +35,9 @@ public class Example {
         return "salut";
     }
 
+    @RequestMapping("/hello-world/jakabsarolta")
+    String jakabsarolta() {
+        return "Heyyy!!";
     @RequestMapping("/hello-world/veresn")
     String veresn() {
         return "Hello from Noemi!";
