@@ -20,7 +20,7 @@ public class Example {
 
     @RequestMapping("/hello-world/vik")
     String salut() {
-        return "sunt bou";
+        return "Salutari perverse de la Vik!";
     }
 
     public static void main(String[] args) {
