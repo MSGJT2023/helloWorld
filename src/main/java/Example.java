@@ -23,6 +23,13 @@ public class Example {
         return new Date().toString();
     }
 
+    @RequestMapping("/hello-world/tudor")
+    String tudor() {
+        return "Sunt Tudor Muntean";
+    }
+
+
+
     public static void main(String[] args) {
         SpringApplication.run(Example.class, args);
     }
