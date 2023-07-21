@@ -35,6 +35,10 @@ public class Example {
         return "salut";
     }
 
+    @RequestMapping("/hello-world/biancaoprisiuJT")
+    String biancaoprisiuJT() {
+        return "Hello from Bia!";
+    }
 
 
     @RequestMapping("/hello-world/daniel")
@@ -49,8 +53,6 @@ public class Example {
     String tudor() {
         return "nu Sunt Tudor Muntean";
     }
-
-
     public static void main(String[] args) {
         SpringApplication.run(Example.class, args);
     }
