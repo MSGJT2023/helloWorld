@@ -35,6 +35,12 @@ public class Example {
         return "salut";
     }
 
+    @RequestMapping("/hello-world/sergiuSavu")
+    String sergiuMessage() {
+        return "Welcome to java training!";
+    }
+
+
     @RequestMapping("/hello-world/jakabsarolta")
     String jakabsarolta() {
         return "Heyyy!!";
@@ -61,6 +67,7 @@ public class Example {
     String tudor() {
         return "nu Sunt Tudor Muntean";
     }
+
     public static void main(String[] args) {
         SpringApplication.run(Example.class, args);
     }
