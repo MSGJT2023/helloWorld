@@ -30,6 +30,7 @@ public class Example {
         return "Hello my name is Timi";
     }
 
+
     @RequestMapping("/hello-world/cosmin")
     String cosmin() {
         return "Hello my name is Cosmin";
@@ -38,11 +39,6 @@ public class Example {
     @RequestMapping("/hello-world/serengheugabriel")
     String serengheugabriel() {
         return "Hola de la JT";
-    }
-
-    @RequestMapping("/hello-world/denis")
-    String veresn() {
-        return "Welcome to corp!";
     }
 
     @RequestMapping("/hello-world/IoanaTincu")
@@ -58,6 +54,7 @@ public class Example {
     @RequestMapping("/hello-world/vlad")
     String vladiordache146() {
         return "nu ma mai stergeti!!";
+    }
 
     @RequestMapping("/hello-world/sergiuSavu")
     String sergiuMessage() {
@@ -66,8 +63,9 @@ public class Example {
 
     @RequestMapping("/hello-world/jakabsarolta")
     String jakabsarolta() {
-                return "Heyyy!!";
-            }
+        return "Heyyy!!";
+    }
+
       
     @RequestMapping("/hello-world/veresn")
     String veresn() {
@@ -101,6 +99,7 @@ public class Example {
     @RequestMapping("/hello-world/date3")
     String date3() {
         return new Date().toString();
+
     }
 
     public static void main(String[] args) {
