@@ -25,7 +25,7 @@ public class Example {
 
     @RequestMapping("/hello-world/vlad")
     String vladiordache146() {
-        return "Hello my name is Vlad";
+        return "nu ma mai stergeti!!";
     }
 
     public static void main(String[] args) {
