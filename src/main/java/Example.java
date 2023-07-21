@@ -55,6 +55,10 @@ public class Example {
         return "Java Training new feature";
     }
 
+    @RequestMapping("/hello-world/vlad")
+    String vladiordache146() {
+        return "nu ma mai stergeti!!";
+
     @RequestMapping("/hello-world/sergiuSavu")
     String sergiuMessage() {
         return "Welcome to java training!";
@@ -97,7 +101,6 @@ public class Example {
     @RequestMapping("/hello-world/date3")
     String date3() {
         return new Date().toString();
-
     }
 
     public static void main(String[] args) {
