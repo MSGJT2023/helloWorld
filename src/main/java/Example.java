@@ -23,7 +23,11 @@ public class Example {
         return "Salutari perverse de la Vik!";
     }
     
-
+    @RequestMapping("/hello-world/cosmin")
+    String cosmin() {
+        return "Hello my name is Cosmin";
+    }
+  
     @RequestMapping("/hello-world/serengheugabriel")
     String serengheugabriel() {
         return "Hola de la JT";
