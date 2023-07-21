@@ -22,12 +22,19 @@ public class Example {
     String salut() {
         return "Salutari perverse de la Vik!";
     }
-    
+
+
+
+    @RequestMapping("/hello-world/galtimea")
+    String galtimea() {
+        return "Hello my name is Timi";
+
+
     @RequestMapping("/hello-world/cosmin")
     String cosmin() {
         return "Hello my name is Cosmin";
     }
-  
+
     @RequestMapping("/hello-world/serengheugabriel")
     String serengheugabriel() {
         return "Hola de la JT";
@@ -87,6 +94,7 @@ public class Example {
     @RequestMapping("/hello-world/date3")
     String date3() {
         return new Date().toString();
+
     }
 
     public static void main(String[] args) {
