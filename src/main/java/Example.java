@@ -22,12 +22,18 @@ public class Example {
     String salut() {
         return "Salutari perverse de la Vik!";
     }
-    
+
 
 
     @RequestMapping("/hello-world/galtimea")
     String galtimea() {
         return "Hello my name is Timi";
+
+
+    @RequestMapping("/hello-world/cosmin")
+    String cosmin() {
+        return "Hello my name is Cosmin";
+    }
 
     @RequestMapping("/hello-world/serengheugabriel")
     String serengheugabriel() {
