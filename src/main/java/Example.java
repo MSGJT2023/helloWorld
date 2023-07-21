@@ -21,6 +21,7 @@ public class Example {
     @RequestMapping("/hello-world/denis")
     String name() {return "Hello my name is Denis";
     }
+    
 
     @RequestMapping("/hello-world/vladpasca")
     String vladpasca17() {
