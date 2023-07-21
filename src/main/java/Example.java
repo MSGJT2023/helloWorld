@@ -18,13 +18,13 @@ public class Example {
         return new Date().toString();
     }
 
-    @RequestMapping("/hello-world/denis")
-    String name() {return "Hello my name is Denis";
+    @RequestMapping("/hello-world/dian")
+    String name() {return "Hello my name is Dian";
     }
 
     @RequestMapping("/hello-world/vlad")
     String vladiordache146() {
-        return "Hello my name is Vlad";
+        return "Hello my name is Dian";
     }
 
     @RequestMapping("/hello-world/serengheugabriel")
