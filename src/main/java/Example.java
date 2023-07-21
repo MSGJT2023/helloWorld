@@ -22,6 +22,11 @@ public class Example {
     String name() {return "Hello my name is Denis";
     }
 
+    @RequestMapping("/hello-world/vlad")
+    String vladiordache146() {
+        return "Hello my name is Vlad";
+    }
+
     public static void main(String[] args) {
         SpringApplication.run(Example.class, args);
     }
