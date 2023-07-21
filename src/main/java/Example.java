@@ -18,13 +18,9 @@ public class Example {
         return new Date().toString();
     }
 
-    @RequestMapping("/hello-world/denis")
-    String name() {return "Hello my name is Denis";
-    }
-
-    @RequestMapping("/hello-world/vlad")
-    String vladiordache146() {
-        return "Hello my name is Vlad";
+    @RequestMapping("/hello-world/vik")
+    String salut() {
+        return "Salutari perverse de la Vik!";
     }
 
     @RequestMapping("/hello-world/serengheugabriel")
@@ -32,10 +28,12 @@ public class Example {
         return "Hola de la JT";
     }
 
-    @RequestMapping("/hello-world/user")
-    String user() {
+    @RequestMapping("/hello-world/daniel")
+    String daniel() {
         return "Aloha Daniel";
     }
+    @RequestMapping("/hello-world/radusiderias")
+    String radusiderias() {return "Salut sef"; }
 
     public static void main(String[] args) {
         SpringApplication.run(Example.class, args);
