@@ -18,15 +18,29 @@ public class Example {
         return new Date().toString();
     }
 
-    @RequestMapping("/hello-world/date2")
-    String date2() {
-        return new Date().toString();
+    @RequestMapping("/hello-world/vik")
+    String salut() {
+        return "Salutari perverse de la Vik!";
     }
+
+    @RequestMapping("/hello-world/serengheugabriel")
+    String serengheugabriel() {
+        return "Hola de la JT";
+    }
+
 
     @RequestMapping("/hello-world/IoanaTincu")
     String IoanaTincu() {
         return "salut";
     }
+
+
+    @RequestMapping("/hello-world/tudor")
+    String tudor() {
+        return "nu Sunt Tudor Muntean";
+    }
+
+
 
     public static void main(String[] args) {
         SpringApplication.run(Example.class, args);
