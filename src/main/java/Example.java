@@ -22,6 +22,7 @@ public class Example {
     String salut() {
         return "Salutari perverse de la Vik!";
     }
+    
 
     @RequestMapping("/hello-world/serengheugabriel")
     String serengheugabriel() {
