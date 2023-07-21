@@ -23,6 +23,14 @@ public class Example {
         return "Salutari perverse de la Vik!";
     }
 
+    @RequestMapping("/hello-world/serengheugabriel")
+    String serengheugabriel() {
+        return "Hola de la JT";
+    }
+
+    @RequestMapping("/hello-world/radusiderias")
+    String radusiderias() {return "Salut sef"; }
+
     public static void main(String[] args) {
         SpringApplication.run(Example.class, args);
     }
