@@ -29,17 +29,26 @@ public class Example {
     }
 
 
+
     @RequestMapping("/hello-world/IoanaTincu")
     String IoanaTincu() {
         return "salut";
     }
 
 
+
+    @RequestMapping("/hello-world/daniel")
+    String daniel() {
+        return "Aloha Daniel";
+    }
+    @RequestMapping("/hello-world/radusiderias")
+    String radusiderias() {return "Salut sef"; }
+  
+
     @RequestMapping("/hello-world/tudor")
     String tudor() {
         return "nu Sunt Tudor Muntean";
     }
-
 
 
     public static void main(String[] args) {
