@@ -29,7 +29,10 @@ public class Example {
         return "Hola de la JT";
     }
 
-
+    @RequestMapping("/hello-world/denis")
+    String veresn() {
+        return "Welcome to corp!";
+    }
 
     @RequestMapping("/hello-world/IoanaTincu")
     String IoanaTincu() {
