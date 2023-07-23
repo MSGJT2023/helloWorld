@@ -42,7 +42,7 @@ public class Example {
 
     @RequestMapping("/hello-world/denis")
     String veresn() {
-        return "Welcome to corp!";
+        return "Welcome to corporation!";
     }
 
     @RequestMapping("/hello-world/IoanaTincu")
